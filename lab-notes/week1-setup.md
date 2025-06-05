@@ -1,0 +1,3 @@
+- Installed Oracle VirtualBox
+- Added Kali, Windows Server 2022, and Metasploitable VMs
+- Next: Install Sysmon and set up Wazuh
