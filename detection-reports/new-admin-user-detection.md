@@ -7,6 +7,7 @@ Used the `net.exe` command-line tool to create a new local user and added it to 
 ```cmd
 net user eviluser P@ssw0rd123! /add
 net localgroup administrators eviluser /add
+```
 
 ## 🔍 Sysmon Events Observed
 
