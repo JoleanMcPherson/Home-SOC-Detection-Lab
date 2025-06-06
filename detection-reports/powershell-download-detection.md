@@ -30,4 +30,5 @@ Use of encoded commands or obfuscation
 
 ## 🧩 MITRE ATT&CK Mapping
 T1059.001: Command and Scripting Interpreter – PowerShell
+
 T1105: Ingress Tool Transfer
