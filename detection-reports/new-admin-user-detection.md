@@ -8,9 +8,9 @@ Used the `net.exe` command-line tool to create a new local user and added it to 
 net user eviluser P@ssw0rd123! /add
 net localgroup administrators eviluser /add
 
-🔍 Sysmon Events Observed
+## 🔍 Sysmon Events Observed
 
-Event ID 1 – Process Creation
+### Event ID 1 – Process Creation
 Image: C:\Windows\System32\net.exe
 
 CommandLine:
@@ -23,15 +23,15 @@ User: Administrator
 
 Hashes: Available in Event details
 
-Event ID 13 – Registry Value Set (Optional)
+### Event ID 13 – Registry Value Set (Optional)
 If group membership modified via registry
 
-🧠 Analyst Notes
+## 🧠 Analyst Notes
 
 Creating new local administrator accounts is a common persistence technique used by attackers. This can be detected by monitoring for suspicious uses of net.exe, especially involving Administrators.
 
+## 🧩 MITRE ATT&CK Mapping
 
-🧩 MITRE ATT&CK Mapping
 T1136.001: Create Account – Local Account
 
 T1078: Valid Accounts
