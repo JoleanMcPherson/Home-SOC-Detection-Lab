@@ -24,9 +24,6 @@ User: Administrator
 
 Hashes: Available in Event details
 
-### Event ID 13 – Registry Value Set (Optional)
-If group membership modified via registry
-
 ## 🧠 Analyst Notes
 
 Creating new local administrator accounts is a common persistence technique used by attackers. This can be detected by monitoring for suspicious uses of net.exe, especially involving Administrators.
